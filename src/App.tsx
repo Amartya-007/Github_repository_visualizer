@@ -1,4 +1,3 @@
-import React from 'react';
 import { GithubIcon } from 'lucide-react';
 import RepositoryVisualizer from './components/RepositoryVisualizer';
 import { AppProvider } from './context/AppContext';
