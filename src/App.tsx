@@ -1,4 +1,5 @@
-import { GithubIcon } from 'lucide-react';
+import React from 'react';
+import { Github } from 'lucide-react';
 import RepositoryVisualizer from './components/RepositoryVisualizer';
 import { AppProvider } from './context/AppContext';
 
@@ -8,7 +9,7 @@ function App() {
       <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 to-purple-900 text-white">
         <header className="py-6 px-4 md:px-8">
           <div className="container mx-auto flex items-center justify-center">
-            <GithubIcon className="w-8 h-8 mr-3" />
+            <Github className="w-8 h-8 mr-3" />
             <h1 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300">
               GitHub Repository Visualizer
             </h1>
